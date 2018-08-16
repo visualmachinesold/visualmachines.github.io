@@ -23,6 +23,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+
+
 footer {
   background-color: #0C1A21;
 }
@@ -670,3 +672,7 @@ Main content
     display: table;
     clear: both;
 }
+
+.moreweight {
+	font-weight: bold;
+} 
