@@ -698,3 +698,98 @@ Main content
     display: table;
     clear: both;
 }
+/* peoplepage */
+/* Three columns side by side */
+.column {
+    float: left;
+    width: 30%;
+    margin-bottom: 16px;
+    padding: 8px 8px;
+    margin-right: 10px /*margin between cards*/
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0.3, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+    padding-right:  10px;
+    padding-left: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+
+}
+
+/* Clear floats */
+.container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: black;
+}
+
+
+.button:hover{
+ color:#0abc00;
+ background-color:#FFFFFF;
+}
+
+}
+.quote{
+  color: gray;
+  padding-left: 30px;
+  font-weight: 300;
+
+}
+.sub-heading-home{
+  font-family: "Work Sans";
+  font-size: 12pt;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: gray;
+  font-style: italic;
+
+}
+.people-name{
+  font-family: "Work Sans";
+  font-style: bold;
+  font-size: 20pt;
+}
+.people-title{
+  font-family: "Work Sans";
+  font-style: bold;
+  font-size: 13pt;
+}
+.people-caption{
+  font-family: "Work Sans";
+  font-style: bold;
+  font-size: 12pt;
+}
+.prof-title{
+  padding-left: 5px
+  font-size: 1.6rem;
+  font-family: "Hind", sans-serif;
+  color: #25283D;
+  background-color: #FFFFFF;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.lightpadded{
+  padding-top: 0px;
+  padding-bottom: 5px;
+  margin-top: 5px;
+}
+
