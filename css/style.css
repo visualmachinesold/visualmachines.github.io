@@ -60,6 +60,8 @@ a {
 .pad-center {
   vertical-align: middle!important;
   padding-left: 10%
+  top: 500px;
+  left: 600px;
 }
 .circular {
   border-radius: 50%;
@@ -121,10 +123,10 @@ a {
     height: 102px;
   }
   .column-3 {
-      float: left;
-      width: 33%;
-      padding-left: 90px;
-      padding-right: 90px;
+      font-size: 14px;
+      padding: 24px 20px 0 0;
+      line-height: 1.4em;
+      margin: 0 0 0 125px;
   }
 }
 
@@ -478,16 +480,18 @@ Main content
   text-align: left;
   margin-bottom: 10px;
 }
-.heading-home {
-  font-family: "Work Sans";
-  font-size: 14pt;
-  font-weight: bold;
-  margin-bottom: 10px;
+.people-textbox {
+display: block;
+top: 50%;
+left: 50%;
+
 }
+
+
 .sub-heading {
   font-family: "Work Sans";
   font-size: 12pt;
-  font-weight: 500;
+  font-weight: 300;
   text-align: left;
   margin-bottom: 12px;
 }
@@ -642,8 +646,19 @@ Main content
 
 .column div {
     margin-top: 8px;
+    margin-bottom: 1px;
+    margin-left: 47.5px;
+    position: relative;
+    top: -95px;
+    left: 250px:
 
 
+}
+.column-head{
+  margin-top: 8px;
+  position: relative;
+  left: 55%;
+  top: -350px;
 }
 
 .news-card {
@@ -669,11 +684,11 @@ Main content
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 400px) {
     .column {
         -ms-flex: 50%;
         flex: 50%;
-        max-width: 50%;
+        max-width: 100%;
     }
 }
 
@@ -698,9 +713,11 @@ Main content
     display: table;
     clear: both;
 }
+
 /* peoplepage */
-/* Three columns side by side */
+/* Three columns vertical layout*/
 .column {
+position: relative;
     float: left;
     width: 30%;
     margin-bottom: 16px;
@@ -709,7 +726,7 @@ Main content
 }
 
 /* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 10000px) {
     .column {
         width: 100%;
         display: block;
@@ -761,6 +778,11 @@ Main content
   margin-bottom: 10px;
   color: gray;
   font-style: italic;
+}
+.heading-home{
+  font-weight: 500;
+  font-size: bold;
+}
 
 }
 .people-name{
@@ -788,8 +810,34 @@ Main content
   -moz-osx-font-smoothing: grayscale;
 }
 .lightpadded{
+  position: relative;
   padding-top: 0px;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
   margin-top: 5px;
+  top: -175px;
+  max-width: 500px;
+  margin: auto;
 }
+.lightpadded-bold{
+  position: relative;
+    font-stretch: semi-expanded;
+  padding-top: 0px;
+  padding-bottom: 15px;
+  margin-top: 5px;
+  top: -175px;
+  font-weight: bold;
+  font-color: gray;
+}
+.row-text{
+  position: relative;
+  top: -175px ;
+  left: 15%;
+  padding-bottom: 10px;
+  padding-left: 55px;
+  margin-left: 10px;
 
+}
+.row{
+  margin-right: -15px;
+  height: 200px;
+}
