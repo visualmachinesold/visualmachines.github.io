@@ -473,7 +473,7 @@ Main content
 -------------------------------- */
 .heading {
   font-family: "Work Sans";
-  font-size: 18pt;
+  font-size: 1.5em;
   font-weight: bold;
   text-align: left;
   margin-bottom: 10px;
@@ -493,7 +493,7 @@ Main content
 }
 .body {
   font-family: "Work Sans";
-  font-size: 12pt;
+  font-size: 1.1em;
   font-weight: 400;
   text-align: left;
   line-height: 1.25em;
