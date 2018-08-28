@@ -46,7 +46,7 @@ a {
 }
 .over-text {
   position: absolute;
-  left: 80px;
+  left: 5%;
   top: 200px;
   color: black;
 }
@@ -163,14 +163,15 @@ a {
 }
 
 .cd-auto-hide-header .logo {
-  left: 5%;
+  left: 0%;
 }
 .cd-auto-hide-header .logo a, .cd-auto-hide-header .logo img {
   display: block;
 }
 
 .top img {
-  max-width: 100%
+  max-width: 100%;
+  left: 0%;
 }
 
 .cd-auto-hide-header .nav-trigger {
@@ -477,7 +478,7 @@ Main content
 -------------------------------- */
 .heading {
   font-family: "Work Sans";
-  font-size: 18pt;
+  font-size: 1.5em;
   font-weight: bold;
   text-align: left;
   margin-bottom: 10px;
@@ -498,6 +499,13 @@ Main content
 .body {
   font-family: "Work Sans";
   font-size: 12pt;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.25em;
+}
+.index {
+  font-family: "Work Sans";
+  font-size: 1.1em;
   font-weight: 400;
   text-align: left;
   line-height: 1.25em;
