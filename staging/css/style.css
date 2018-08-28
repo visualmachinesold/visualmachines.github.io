@@ -43,6 +43,8 @@ a {
 }
 .full-width {
   width: 100%;
+  max-width: 99%;
+  max-height: 99%;
 }
 .over-text {
   position: absolute;
