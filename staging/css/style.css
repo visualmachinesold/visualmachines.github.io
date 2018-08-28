@@ -152,8 +152,7 @@ a {
   }
 }
 
-.cd-auto-hide-header .logo,
-.cd-auto-hide-header .nav-trigger {
+.cd-auto-hide-header .cd-auto-hide-header .nav-trigger {
   position: absolute;
   top: 50%;
   bottom: auto;
@@ -161,6 +160,16 @@ a {
       -ms-transform: translateY(-50%);
           transform: translateY(-50%);
 }
+
+.logo {
+  position: inherit;
+  top: 50%;
+  bottom: auto;
+  -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+}
+
 
 .cd-auto-hide-header .logo {
   left: 5%;
