@@ -49,6 +49,7 @@ a {
   left: 5%;
   top: 200px;
   color: black;
+  max-width: 100%
 }
 .padded {
   padding-top: 30px;
@@ -481,7 +482,7 @@ Main content
   font-size: 1.5em;
   font-weight: bold;
   text-align: left;
-  margin-bottom: 10px;
+  margin-bottom: 3%;
 }
 .heading-home {
   font-family: "Work Sans";
